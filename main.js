@@ -55,10 +55,10 @@ document.body.appendChild(canv);
 var ctx = canv.getContext("2d");
 
 // set up sound effects
-var fxBrick = new Audio("sounds/brick.m4a");
-var fxPaddle = new Audio("sounds/paddle.m4a");
-var fxPowerup = new Audio("sounds/powerup.m4a");
-var fxWall = new Audio("sounds/wall.m4a");
+var fxBrick = new Audio("brick.m4a");
+var fxPaddle = new Audio("paddle.m4a");
+var fxPowerup = new Audio("powerup.m4a");
+var fxWall = new Audio("wall.m4a");
 
 // game variables
 var ball, bricks = [], paddle, pups = [];
